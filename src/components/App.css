@@ -81,12 +81,12 @@ body {
   }
   
   ::-moz-selection {
-    background: #fed136;
+   /* background: #fed136;*/
     text-shadow: none;
   }
   
   ::selection {
-    background: #fed136;
+    /*background: #fed136;*/
     text-shadow: none;
   }
   

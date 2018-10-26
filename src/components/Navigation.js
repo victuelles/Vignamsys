@@ -38,16 +38,16 @@ class Navigation extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav  className="navbar-nav text-uppercase ml-auto" navbar>
               <NavItem>
-                <NavLink href="#services">Services</NavLink>
+                <NavLink href="#services" onClick={this.toggle}>Services</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#about">About</NavLink>
+                <NavLink href="#about" onClick={this.toggle}>About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#team">Team</NavLink>
+                <NavLink href="#team" onClick={this.toggle}>Team</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#contact">Contact</NavLink>
+                <NavLink href="#contact" onClick={this.toggle}>Contact</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

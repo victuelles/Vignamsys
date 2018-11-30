@@ -30,7 +30,7 @@ body {
   }
   
   section {
-    padding: 100px 0;
+    padding: 120px 0;
   }
   
   section h2.section-heading {
@@ -142,7 +142,7 @@ body {
   }
   .navbar-brand {
     margin-right:0;
-    width: 80%;
+    width: 60%;
   }
   
   @media (min-width: 992px) {
@@ -169,7 +169,7 @@ body {
     }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.25em;
-      padding: 12px 0;
+      padding: 5px 0;
       width:50%;
     }
 

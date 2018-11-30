@@ -31,7 +31,7 @@ class Navigation extends Component {
     render() { 
       return  (
         <div>
-        <Navbar color="none" dark   fixed="top" expand="lg" id="mainNav">
+        <Navbar color="none" dark  className="navbar-shrink" fixed="top" expand="lg" id="mainNav">
         <div className="container" id="navbarResponsive">
           <NavbarBrand href="/"><img src={logo} className="navbar-brand logo" alt="logo" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />

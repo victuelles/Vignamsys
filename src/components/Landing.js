@@ -1,5 +1,5 @@
 import React from 'react';
-
+import  Iframe from 'react-iframe'
 const Landing = () => 
 <React.Fragment>
     <header className="masthead">
@@ -18,117 +18,76 @@ const Landing = () =>
         <div className="row">
           <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">Services</h2>
-            <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 className="section-subheading text-muted">Vignam offers the services in staffing for developing Technology solutions, QA testing and Project management for the customer needs.</h3>
           </div>
         </div>
         <div className="row text-center">
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
               <i className="fas fa-circle fa-stack-2x text-primary"></i>
-              <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i className="fas fa-key fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="service-heading">E-Commerce</h4>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 className="service-heading">Technology solutions</h4>
+            <p className="text-muted">Vignam offers your engineering teams a Software Engineers with the expert knowledge of a wide array of technology stacks.</p>
+            <ul className="text-muted" style={{fontStyle:"italic",textAlign:"left"}}>
+              <li>Enterprise/consumer Full stack Web application development </li>
+              <li>Consumer mobile applications development on both Android and iOS platforms with support of wearable devices and IOT devices.</li>
+            </ul>
           </div>
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
               <i className="fas fa-circle fa-stack-2x text-primary"></i>
               <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="service-heading">Responsive Design</h4>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 className="service-heading">QA Testing</h4>
+            <p className="text-muted">Vignam offers Quality-engineering services, which will help our customers to get their product out with high quality. </p>
+            <ul className="text-muted" style={{fontStyle:"italic",textAlign:"left"}}>
+              <li>QA and Testing consulting </li>
+              <li>Manual testing</li>
+              <li>Mobile testing</li>
+            </ul>
           </div>
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
               <i className="fas fa-circle fa-stack-2x text-primary"></i>
-              <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
+              <i className="fas fa-project-diagram fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="service-heading">Web Security</h4>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 className="service-heading">Project Management</h4>
+            <p className="text-muted">Vignam offers Project management services.</p>
+            <ul className="text-muted" style={{fontStyle:"italic",textAlign:"left"}}>
+              <li>Agile Scum </li>
+              <li>Traditional water fall model</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
-   
-
- 
+ { /* About Section */}
     <section id="about">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">About</h2>
-            <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
+            <h3 className="section-subheading text-muted">Vignam Systems is a US based company, located in San Ramon, California. We offer a wide range of software and technology staffing solutions.</h3>
+           </div>
         </div>
         <div className="row">
-          <div className="col-lg-12">
-            <ul className="timeline">
-              <li>
-                <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt=""/>
-                </div>
-                <div className="timeline-panel">
-                  <div className="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 className="subheading">Our Humble Beginnings</h4>
-                  </div>
-                  <div className="timeline-body">
-                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li className="timeline-inverted">
-                <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
-                </div>
-                <div className="timeline-panel">
-                  <div className="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 className="subheading">An Agency is Born</h4>
-                  </div>
-                  <div className="timeline-body">
-                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt=""/>
-                </div>
-                <div className="timeline-panel">
-                  <div className="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 className="subheading">Transition to Full Service</h4>
-                  </div>
-                  <div className="timeline-body">
-                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li className="timeline-inverted">
-                <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt=""/>
-                </div>
-                <div className="timeline-panel">
-                  <div className="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 className="subheading">Phase Two Expansion</h4>
-                  </div>
-                  <div className="timeline-body">
-                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li className="timeline-inverted">
-                <div className="timeline-image">
-                  <h4>Be Part
-                    <br/>Of Our
-                    <br/>Story!</h4>
-                </div>
-              </li>
+          <div className="col-lg-12 mx-auto text-center staff_image">
+            <img className="object-fit_cover mx-auto img-fluid" src="img/about/about-us.jpg" alt=""/>
+          </div>
+      </div>
+       <div className="row">
+          <div className="col-lg-12 text-center">
+            <h4 className="service-heading">Our team expertise enables us to provide services in the area of </h4>
+            <ul className="text-muted" style={{fontStyle:"italic",textAlign:"left"}}>
+              <li>Full stack web application development </li>
+              <li>Mobile Application development on both iOS and Android</li>
+              <li>Project management </li>
+              <li>QA software testing</li>
             </ul>
           </div>
         </div>
+     
       </div>
     </section>
 
